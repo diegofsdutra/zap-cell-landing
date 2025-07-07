@@ -388,14 +388,14 @@ export default function ZapCellLanding() {
                   </div>
                   
                   <div className="space-y-4 mb-6">
-                    <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded">
-                      <p className="text-sm text-red-700">
-                        <span className="font-semibold">ANTES:</span> {testimonial.before}
+                    <div className="bg-slate-50 border-l-4 border-slate-400 p-4 rounded">
+                      <p className="text-sm text-slate-700">
+                        <span className="font-medium">ANTES:</span> {testimonial.before}
                       </p>
                     </div>
-                    <div className="bg-green-50 border-l-4 border-green-400 p-4 rounded">
-                      <p className="text-sm text-green-700">
-                        <span className="font-semibold">DEPOIS:</span> {testimonial.after}
+                    <div className="bg-teal-50 border-l-4 border-teal-400 p-4 rounded">
+                      <p className="text-sm text-teal-700">
+                        <span className="font-medium">DEPOIS:</span> {testimonial.after}
                       </p>
                     </div>
                   </div>
