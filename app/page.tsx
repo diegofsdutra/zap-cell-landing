@@ -71,40 +71,44 @@ export default function ZapCellLanding() {
           <div className="max-w-5xl mx-auto text-center">
             <Badge className="bg-gradient-to-r from-red-100 to-red-200 text-red-700 border-red-300 mb-8 px-4 py-2 text-base font-bold">VÍDEO EXCLUSIVO</Badge>
             
-            <h1 className="text-4xl lg:text-6xl font-black text-gray-900 mb-8 leading-tight">
+            <h1 className="text-3xl lg:text-5xl font-black text-gray-900 mb-4 leading-tight">
               Como Ganhar R$ 300 em 5 Minutos
               <span className="block bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent mt-2">
                 (Técnica que Assistências Escondem)
               </span>
             </h1>
+            
+            <p className="text-lg text-gray-600 mb-6 text-center max-w-2xl mx-auto">
+              Demonstração real de troca de tela - Aprenda a técnica completa
+            </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-200 p-4 rounded-xl shadow-md">
                 <p className="font-bold text-blue-800">Demonstração 100% real</p>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-200 p-4 rounded-xl shadow-md">
                 <p className="font-bold text-green-800">Celular quebrado vira novo</p>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100 border-2 border-purple-200 p-4 rounded-xl shadow-md">
-                <p className="font-bold text-purple-800">Técnica profissional revelada</p>
+              <div className="bg-gradient-to-br from-blue-100 to-blue-200 border-2 border-blue-300 p-4 rounded-xl shadow-md">
+                <p className="font-bold text-blue-800">Técnica profissional revelada</p>
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-green-100 to-green-200 border-3 border-green-400 p-8 rounded-2xl mb-8 max-w-3xl mx-auto shadow-xl">
-              <p className="text-2xl font-black text-green-800 mb-2">
+            <div className="bg-gradient-to-r from-green-100 to-green-200 border-2 border-green-300 p-4 rounded-xl mb-6 max-w-2xl mx-auto shadow-md">
+              <p className="text-xl font-bold text-green-800 mb-1">
                 VALOR REAL: R$ 350 por reparo
               </p>
-              <p className="text-lg font-bold text-green-700">
+              <p className="text-base font-semibold text-green-700">
                 Aprenda GRÁTIS em 5 minutos
               </p>
             </div>
 
-            <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 rounded-2xl mb-8 max-w-2xl mx-auto shadow-lg">
-              <p className="text-xl font-bold mb-2">ASSISTA AGORA (100% Gratuito)</p>
-              <p className="text-blue-100">Sem cadastro • Sem enrolação</p>
+            <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-3 rounded-xl mb-6 max-w-lg mx-auto shadow-md">
+              <p className="text-lg font-bold mb-1">ASSISTA AGORA</p>
+              <p className="text-blue-100 text-sm">100% gratuito • Sem cadastro • Sem enrolação</p>
             </div>
 
-            <div className="relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl overflow-hidden shadow-2xl mb-12">
+            <div className="relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl overflow-hidden shadow-2xl mb-8">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-transparent"></div>
               <video
                 className="w-full aspect-video relative z-10"
@@ -346,6 +350,97 @@ export default function ZapCellLanding() {
         </div>
       </section>
 
+      {/* Guarantee Section */}
+      <section className="py-20 bg-gradient-to-br from-green-50 to-blue-50 relative overflow-hidden">
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#36b320]/5 rounded-full blur-3xl"></div>
+        
+        <div className="container mx-auto px-4 relative">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <Badge className="bg-[#36b320] text-white border-0 mb-4">
+                Nossas Garantias
+              </Badge>
+              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                Seu sucesso é
+                <span className="block bg-gradient-to-r from-[#36b320] to-[#2a8f1a] bg-clip-text text-transparent">
+                  nossa prioridade
+                </span>
+              </h2>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-8">
+                <div className="space-y-6">
+                  {[
+                    {
+                      icon: CheckCircle,
+                      title: "Aulas de reforço GRATUITAS",
+                      description: "Se tiver dificuldade, oferecemos aulas extras sem custo até você dominar 100%."
+                    },
+                    {
+                      icon: Users,
+                      title: "100% de aprovação",
+                      description: "Em 8 anos de curso, TODOS os 500+ alunos se formaram com sucesso. Você será o próximo!"
+                    },
+                    {
+                      icon: Clock,
+                      title: "Suporte de 6 meses",
+                      description: "Mesmo após formado, você terá 6 meses de suporte para tirar dúvidas via WhatsApp."
+                    },
+                    {
+                      icon: Award,
+                      title: "Certificado garantido",
+                      description: "Certificado de conclusão reconhecido pelo mercado, emitido ao final do curso."
+                    },
+                    {
+                      icon: Wrench,
+                      title: "Acesso às ferramentas",
+                      description: "Use nossas ferramentas profissionais durante todo o curso, sem custo adicional."
+                    },
+                    {
+                      icon: Target,
+                      title: "Acompanhamento individual",
+                      description: "Professor dedicado acompanha seu progresso pessoalmente em cada aula."
+                    }
+                  ].map((guarantee, index) => (
+                    <div key={index} className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-[#36b320] to-[#2a8f1a] rounded-xl flex items-center justify-center">
+                        <guarantee.icon className="h-6 w-6 text-white" />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">{guarantee.title}</h3>
+                        <p className="text-gray-600">{guarantee.description}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="relative">
+                <div className="bg-white p-8 rounded-3xl shadow-2xl border-4 border-[#36b320]/20">
+                  <div className="text-center">
+                    <div className="w-24 h-24 bg-gradient-to-br from-[#36b320] to-[#2a8f1a] rounded-full flex items-center justify-center mx-auto mb-6">
+                      <Award className="h-12 w-12 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                      GARANTIA DE SUCESSO
+                    </h3>
+                    <p className="text-lg text-gray-600 mb-6">
+                      Garantimos seu sucesso ou oferecemos aulas extras gratuitas até você dominar.
+                    </p>
+                    <div className="bg-gradient-to-r from-[#36b320] to-[#2a8f1a] p-4 rounded-2xl">
+                      <p className="text-white font-bold text-lg">
+                        "500+ alunos formados com sucesso!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Stats Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -457,27 +552,27 @@ export default function ZapCellLanding() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Carlos Silva, 28 anos",
+                name: "Carlos Silva, 28 anos - Eldorado",
                 before: "Desempregado há 8 meses",
-                after: "R$ 4.200/mês em 3 meses",
+                after: "R$ 3.200/mês em 4 meses",
                 image: "/placeholder.svg?height=80&width=80",
-                quote: "Saí do curso e já consegui meus primeiros clientes. Hoje ganho mais que no meu emprego anterior!",
+                quote: "Consegui meus primeiros clientes na primeira semana. Hoje tenho agenda lotada!",
                 verified: true
               },
               {
-                name: "Ana Costa, 34 anos", 
-                before: "Vendedora R$ 1.400/mês",
-                after: "R$ 6.800/mês próprio negócio",
+                name: "Ana Costa, 34 anos - Industrial", 
+                before: "Balconista de loja",
+                after: "R$ 4.500/mês próprio negócio",
                 image: "/placeholder.svg?height=80&width=80",
-                quote: "Abri minha própria assistência técnica. Nunca pensei que fosse possível mudar tanto em 2 meses!",
+                quote: "Nunca imaginei que pudesse ter meu próprio negócio. Mudou tudo!",
                 verified: true
               },
               {
-                name: "Pedro Santos, 22 anos",
-                before: "Estudante universitário",
-                after: "R$ 3.500/mês meio período",
+                name: "Pedro Santos, 22 anos - Ressaca",
+                before: "Estudante sem renda",
+                after: "R$ 2.800/mês trabalhando 4h/dia",
                 image: "/placeholder.svg?height=80&width=80", 
-                quote: "Consegui pagar minha faculdade e ainda sobra dinheiro. Melhor decisão que já tomei!",
+                quote: "Pago minha faculdade e ainda ajudo em casa. Gratidão total!",
                 verified: true
               }
             ].map((testimonial, index) => (
@@ -572,12 +667,12 @@ export default function ZapCellLanding() {
                   <p className="text-lg text-[#36b320] font-semibold mb-4">Proprietário da Zap Cell</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <Badge className="bg-blue-100 text-blue-800 border-blue-300">Proprietário da Zap Cell</Badge>
-                    <Badge className="bg-purple-100 text-purple-800 border-purple-300">Especialista Certificado</Badge>
+                    <Badge className="bg-green-100 text-green-800 border-green-300">Especialista Certificado</Badge>
                   </div>
                 </div>
 
                 <p className="text-gray-600 text-lg leading-relaxed">
-                  Mais de 8 anos transformando a vida de pessoas através da tecnologia. Já ajudou mais de 500 pessoas 
+                  ZapCell mais de 8 anos transformando a vida de pessoas através da tecnologia. Já ajudou mais de 500 pessoas 
                   a conquistarem sua independência financeira no mercado de manutenção de celulares, com uma metodologia 
                   exclusiva e resultados comprovados.
                 </p>
@@ -682,10 +777,10 @@ export default function ZapCellLanding() {
                 ],
               },
               {
-                icon: Cpu,
-                title: "Módulo 4: Software",
+                icon: Wrench,
+                title: "Módulo 4: Reparos Especializados",
                 color: "from-red-500 to-red-600",
-                topics: ["Desbloqueio de aparelhos", "Instalação de firmware", "Recuperação de dados", "Root e unlock"],
+                topics: ["Desoxidação e limpeza", "Reparo por danos líquidos", "Manutenção de conectores", "Soldagem de precisão"],
               },
             ].map((module, index) => (
               <Card
@@ -803,99 +898,6 @@ export default function ZapCellLanding() {
         </div>
       </section>
 
-      {/* Guarantee Section */}
-      <section className="py-20 bg-gradient-to-br from-green-50 to-blue-50 relative overflow-hidden">
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#36b320]/5 rounded-full blur-3xl"></div>
-        
-        <div className="container mx-auto px-4 relative">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <Badge className="bg-[#36b320] text-white border-0 mb-4">
-                Nossas Garantias
-              </Badge>
-              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                Seu sucesso é
-                <span className="block bg-gradient-to-r from-[#36b320] to-[#2a8f1a] bg-clip-text text-transparent">
-                  nossa prioridade
-                </span>
-              </h2>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="space-y-8">
-                <div className="space-y-6">
-                  {[
-                    {
-                      icon: CheckCircle,
-                      title: "Aulas de reforço GRATUITAS",
-                      description: "Se tiver dificuldade, oferecemos aulas extras sem custo até você dominar 100%."
-                    },
-                    {
-                      icon: Users,
-                      title: "100% de aprovação",
-                      description: "Em 8 anos de curso, TODOS os 500+ alunos se formaram com sucesso. Você será o próximo!"
-                    },
-                    {
-                      icon: Clock,
-                      title: "Suporte de 6 meses",
-                      description: "Mesmo após formado, você terá 6 meses de suporte para tirar dúvidas via WhatsApp."
-                    },
-                    {
-                      icon: Award,
-                      title: "Certificado garantido",
-                      description: "Certificado de conclusão reconhecido pelo mercado, emitido ao final do curso."
-                    },
-                    {
-                      icon: Wrench,
-                      title: "Acesso às ferramentas",
-                      description: "Use nossas ferramentas profissionais durante todo o curso, sem custo adicional."
-                    },
-                    {
-                      icon: Target,
-                      title: "Acompanhamento individual",
-                      description: "Professor dedicado acompanha seu progresso pessoalmente em cada aula."
-                    }
-                  ].map((guarantee, index) => (
-                    <div key={index} className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-[#36b320] to-[#2a8f1a] rounded-xl flex items-center justify-center">
-                        <guarantee.icon className="h-6 w-6 text-white" />
-                      </div>
-                      <div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-2">{guarantee.title}</h3>
-                        <p className="text-gray-600">{guarantee.description}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="relative">
-                <div className="bg-white p-8 rounded-3xl shadow-2xl border-4 border-[#36b320]/20">
-                  <div className="text-center">
-                    <div className="w-24 h-24 bg-gradient-to-br from-[#36b320] to-[#2a8f1a] rounded-full flex items-center justify-center mx-auto mb-6">
-                      <Award className="h-12 w-12 text-white" />
-                    </div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      GARANTIA DE SUCESSO
-                    </h3>
-                    <p className="text-lg text-gray-600 mb-6">
-                      Não sai daqui sem estar 100% preparado para o mercado de trabalho.
-                    </p>
-                    <div className="bg-gradient-to-r from-[#36b320] to-[#2a8f1a] p-4 rounded-2xl">
-                      <p className="text-white font-bold text-lg">
-                        "500+ alunos formados com sucesso!"
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute -top-4 -right-4 bg-yellow-400 text-black px-4 py-2 rounded-full font-bold text-sm shadow-lg">
-                  ✅ 100% Aprovação
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="bg-gradient-to-br from-gray-900 to-black text-white py-12 relative overflow-hidden">
