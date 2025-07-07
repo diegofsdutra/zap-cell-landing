@@ -68,23 +68,40 @@ export default function ZapCellLanding() {
       {/* Video Hook Section */}
       <section className="py-20 bg-gradient-to-br from-white to-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <Badge className="bg-[#36b320]/10 text-[#36b320] border-[#36b320]/20 mb-6">Vídeo Demonstrativo</Badge>
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
-              VÍDEO EXCLUSIVO: Como Trocar
-              <span className="block bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                Tela de Celular em 5 Minutos
+          <div className="max-w-5xl mx-auto text-center">
+            <Badge className="bg-gradient-to-r from-red-100 to-red-200 text-red-700 border-red-300 mb-8 px-4 py-2 text-base font-bold">VÍDEO EXCLUSIVO</Badge>
+            
+            <h1 className="text-4xl lg:text-6xl font-black text-gray-900 mb-8 leading-tight">
+              Como Ganhar R$ 300 em 5 Minutos
+              <span className="block bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent mt-2">
+                (Técnica que Assistências Escondem)
               </span>
-            </h2>
-            <p className="text-xl text-gray-600 mb-6">
-              Demonstração real com celular quebrado • Resultado garantido
-            </p>
-            <p className="text-xl text-gray-600 mb-8">Técnica profissional que poucos conhecem • 100% gratuito</p>
+            </h1>
 
-            <div className="bg-white border border-gray-200 p-6 rounded-xl mb-6 max-w-2xl mx-auto shadow-sm">
-              <p className="text-gray-700 font-semibold text-center">
-                Mesma técnica que as assistências técnicas cobram R$ 200+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-200 p-4 rounded-xl shadow-md">
+                <p className="font-bold text-blue-800">Demonstração 100% real</p>
+              </div>
+              <div className="bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-200 p-4 rounded-xl shadow-md">
+                <p className="font-bold text-green-800">Celular quebrado vira novo</p>
+              </div>
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 border-2 border-purple-200 p-4 rounded-xl shadow-md">
+                <p className="font-bold text-purple-800">Técnica profissional revelada</p>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-green-100 to-green-200 border-3 border-green-400 p-8 rounded-2xl mb-8 max-w-3xl mx-auto shadow-xl">
+              <p className="text-2xl font-black text-green-800 mb-2">
+                VALOR REAL: R$ 350 por reparo
               </p>
+              <p className="text-lg font-bold text-green-700">
+                Aprenda GRÁTIS em 5 minutos
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 rounded-2xl mb-8 max-w-2xl mx-auto shadow-lg">
+              <p className="text-xl font-bold mb-2">ASSISTA AGORA (100% Gratuito)</p>
+              <p className="text-blue-100">Sem cadastro • Sem enrolação</p>
             </div>
 
             <div className="relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl overflow-hidden shadow-2xl mb-12">
@@ -99,15 +116,110 @@ export default function ZapCellLanding() {
               </video>
             </div>
             
-            <p className="text-center text-gray-500 text-sm mt-4">
-              ⏱️ Apenas 5 minutos • Sem cadastro • 100% gratuito
-            </p>
-
-            <div className="text-center mt-4 mb-2">
-              <p className="text-2xl font-bold text-gray-900">
-                "Ficou fácil, certo? Agora imagine aprendendo 40+ técnicas assim, PRESENCIALMENTE, e faturando R$ 3.000+/mês. Só restam 3 vagas!"
+            <div className="text-center mt-6">
+              <p className="text-gray-600 font-medium">
+                Duração: 5 minutos • Acesso instantâneo • 100% gratuito
               </p>
             </div>
+
+            <div className="max-w-4xl mx-auto mt-8 mb-8">
+              <div className="bg-gradient-to-r from-blue-50 via-white to-green-50 border-2 border-green-200 rounded-3xl p-8 lg:p-12 shadow-lg text-center">
+                <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                  FICOU FÁCIL, CERTO?
+                </h3>
+                <p className="text-xl lg:text-2xl text-gray-700 leading-relaxed mb-4">
+                  Agora imagine dominando <span className="font-bold text-green-600">40+ técnicas</span> assim e faturando 
+                  <span className="font-bold text-green-600"> R$ 3.000+/mês</span>
+                </p>
+                <p className="text-lg text-gray-600 font-medium">
+                  Só restam 3 vagas para a turma de julho!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Opportunity Section */}
+      <section className="py-20 bg-gradient-to-br from-gray-900 to-black text-white relative overflow-hidden">
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fillRule='evenodd'%3E%3Cg fill='%23ffffff' fillOpacity='0.02'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+          }}
+        />
+        
+        <div className="container mx-auto px-4 relative">
+          <div className="text-center mb-16">
+            <Badge className="bg-[#36b320] text-white border-0 mb-4">
+              Oportunidade de Mercado
+            </Badge>
+            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+              Por que AGORA é o
+              <span className="block bg-gradient-to-r from-[#36b320] to-green-400 bg-clip-text text-transparent">
+                melhor momento?
+              </span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+            {[
+              {
+                number: "240Mi",
+                label: "smartphones no Brasil",
+                subtitle: "E crescendo 15% ao ano",
+                icon: Smartphone
+              },
+              {
+                number: "87%",
+                label: "quebram a tela por ano",
+                subtitle: "= 200 milhões de reparos/ano",
+                icon: Shield
+              },
+              {
+                number: "R$ 350",
+                label: "preço médio do reparo",
+                subtitle: "Mercado de R$ 70 bilhões",
+                icon: Target
+              },
+              {
+                number: "73%",
+                label: "preferem consertar",
+                subtitle: "Ao invés de comprar novo",
+                icon: Award
+              }
+            ].map((stat, index) => (
+              <Card key={index} className="bg-white/10 backdrop-blur-lg border-white/20 text-center group hover:bg-white/20 transition-all duration-300">
+                <CardContent className="p-8">
+                  <div className="w-16 h-16 bg-gradient-to-br from-[#36b320] to-green-400 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                    <stat.icon className="h-8 w-8 text-white" />
+                  </div>
+                  <div className="text-4xl font-bold text-white mb-2">{stat.number}</div>
+                  <div className="text-green-300 font-semibold mb-1">{stat.label}</div>
+                  <div className="text-gray-400 text-sm">{stat.subtitle}</div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="bg-gradient-to-r from-blue-700 to-blue-600 p-8 rounded-3xl shadow-2xl text-center mb-8">
+            <h3 className="text-3xl font-bold mb-6 text-white">PROBLEMA: Falta de técnicos qualificados</h3>
+            <p className="text-xl mb-6 text-blue-100">
+              Para cada 1.000 aparelhos quebrados, existem apenas 3 técnicos capacitados
+            </p>
+            <p className="text-2xl font-bold text-white">
+              = OPORTUNIDADE ÚNICA para quem se capacitar AGORA!
+            </p>
+          </div>
+
+          <div className="text-center mt-12 mb-8">
+            <p className="text-xl text-gray-300 mb-4">
+              Quer dominar essas técnicas e aproveitar essa oportunidade?
+            </p>
+            <p className="text-2xl font-bold bg-gradient-to-r from-[#36b320] to-green-400 bg-clip-text text-transparent">
+              Veja como abaixo ↓
+            </p>
           </div>
         </div>
       </section>
@@ -144,49 +256,50 @@ export default function ZapCellLanding() {
                     <span className="font-semibold text-green-600"> Contagem-MG</span>.
                   </p>
 
-                  <div className="space-y-8">
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                      <div className="bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-200 p-6 rounded-2xl text-center shadow-lg transform hover:scale-105 transition-transform">
-                        <div className="text-4xl font-extrabold text-green-600 mb-2">40+</div>
-                        <div className="text-sm font-medium text-green-700">Técnicas como essa</div>
+                  <div className="space-y-10">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 items-center">
+                      <div className="bg-gradient-to-br from-green-100 to-green-200 border-2 border-green-300 p-6 rounded-2xl text-center shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <div className="text-4xl font-extrabold text-green-700 mb-2">40+</div>
+                        <div className="text-sm font-medium text-green-800">Técnicas como essa</div>
                       </div>
-                      <div className="bg-gradient-to-br from-green-100 to-green-200 border-2 border-green-300 p-6 rounded-2xl text-center shadow-xl transform hover:scale-105 transition-transform">
-                        <div className="text-4xl font-extrabold text-green-700 mb-2">R$ 3.000+</div>
-                        <div className="text-sm font-medium text-green-800">Renda mensal média</div>
+                      <div className="bg-gradient-to-br from-green-200 to-green-300 border-3 border-green-400 p-8 rounded-3xl text-center shadow-2xl transform hover:scale-110 transition-all duration-300 relative">
+                        <div className="absolute -top-2 -right-2 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded-full">DESTAQUE</div>
+                        <div className="text-5xl font-black text-green-800 mb-3">R$ 3.000+</div>
+                        <div className="text-base font-bold text-green-900">Renda mensal média</div>
                       </div>
-                      <div className="bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-200 p-6 rounded-2xl text-center shadow-lg transform hover:scale-105 transition-transform">
-                        <div className="text-4xl font-extrabold text-green-600 mb-2">100%</div>
-                        <div className="text-sm font-medium text-green-700">Aulas práticas</div>
+                      <div className="bg-gradient-to-br from-green-100 to-green-200 border-2 border-green-300 p-6 rounded-2xl text-center shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <div className="text-4xl font-extrabold text-green-700 mb-2">100%</div>
+                        <div className="text-sm font-medium text-green-800">Aulas práticas</div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-6">
-                    <div className="flex items-center justify-center space-x-2 mb-3">
-                      <Clock className="h-5 w-5 text-blue-600" />
-                      <span className="font-bold text-blue-600">INSCRIÇÕES ENCERRAM EM:</span>
+                  <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6 mb-8">
+                    <div className="flex items-center justify-center space-x-2 mb-4">
+                      <Clock className="h-5 w-5 text-green-600" />
+                      <span className="font-bold text-green-700">INSCRIÇÕES ENCERRAM EM:</span>
                     </div>
                     <div className="flex justify-center space-x-4 text-center">
-                      <div className="bg-blue-600 text-white px-4 py-3 rounded-lg font-bold">
-                        <div className="text-2xl">02</div>
+                      <div className="bg-gradient-to-br from-green-600 to-green-700 text-white px-5 py-4 rounded-xl font-bold shadow-lg">
+                        <div className="text-3xl">02</div>
                         <div className="text-xs">DIAS</div>
                       </div>
-                      <div className="bg-blue-600 text-white px-4 py-3 rounded-lg font-bold">
-                        <div className="text-2xl">14</div>
+                      <div className="bg-gradient-to-br from-green-600 to-green-700 text-white px-5 py-4 rounded-xl font-bold shadow-lg">
+                        <div className="text-3xl">14</div>
                         <div className="text-xs">HORAS</div>
                       </div>
-                      <div className="bg-blue-600 text-white px-4 py-3 rounded-lg font-bold">
-                        <div className="text-2xl">23</div>
+                      <div className="bg-gradient-to-br from-green-600 to-green-700 text-white px-5 py-4 rounded-xl font-bold shadow-lg">
+                        <div className="text-3xl">23</div>
                         <div className="text-xs">MIN</div>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center mt-10">
                   <Button
                     size="lg"
-                    className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-bold px-10 py-8 text-xl rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 group transform hover:scale-105"
+                    className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-bold px-12 py-10 text-xl rounded-3xl shadow-2xl hover:shadow-4xl transition-all duration-500 group transform hover:scale-110 hover:rotate-1 border-2 border-green-500"
                     asChild
                   >
                     <Link
@@ -200,23 +313,31 @@ export default function ZapCellLanding() {
                   </Button>
                 </div>
 
-                <div className="flex items-center justify-center space-x-8 pt-4">
-                  <div className="flex items-center space-x-2">
-                    <div className="flex -space-x-2">
-                      {[1, 2, 3, 4].map((i) => (
-                        <div
-                          key={i}
-                          className="w-8 h-8 bg-gradient-to-br from-green-600 to-green-700 rounded-full border-2 border-white"
-                        ></div>
-                      ))}
+                <div className="flex items-center justify-center space-x-8 pt-8">
+                  <div className="bg-green-50 border border-green-200 rounded-full px-4 py-2 shadow-md">
+                    <div className="flex items-center space-x-3">
+                      <div className="flex -space-x-2">
+                        {[1, 2, 3, 4].map((i) => (
+                          <div
+                            key={i}
+                            className="w-10 h-10 bg-gradient-to-br from-green-600 to-green-700 rounded-full border-3 border-white shadow-lg"
+                          ></div>
+                        ))}
+                      </div>
+                      <div className="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                        500+ FORMADOS
+                      </div>
                     </div>
-                    <span className="text-sm text-gray-600">500+ alunos formados</span>
                   </div>
-                  <div className="flex items-center space-x-1">
-                    {[1, 2, 3, 4, 5].map((i) => (
-                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    ))}
-                    <span className="text-sm text-gray-600 ml-2">4.9/5</span>
+                  <div className="bg-yellow-50 border border-yellow-200 rounded-full px-4 py-2 shadow-md">
+                    <div className="flex items-center space-x-2">
+                      {[1, 2, 3, 4, 5].map((i) => (
+                        <Star key={i} className="w-5 h-5 fill-yellow-500 text-yellow-500" />
+                      ))}
+                      <div className="bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded-full ml-2">
+                        4.9/5
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -447,21 +568,32 @@ export default function ZapCellLanding() {
 
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Professor João Silva</h3>
-                  <p className="text-lg text-[#36b320] font-semibold mb-4">Fundador da Zap Cell</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Professor Harison Moreira</h3>
+                  <p className="text-lg text-[#36b320] font-semibold mb-4">Proprietário da Zap Cell</p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <Badge className="bg-blue-100 text-blue-800 border-blue-300">Proprietário da Zap Cell</Badge>
+                    <Badge className="bg-purple-100 text-purple-800 border-purple-300">Especialista Certificado</Badge>
+                  </div>
                 </div>
 
                 <p className="text-gray-600 text-lg leading-relaxed">
-                  Mais de 8 anos transformando vidas através da tecnologia. Proprietário da Zap Cell e mentor de
-                  centenas de profissionais que hoje dominam o mercado de manutenção de celulares.
+                  Mais de 8 anos transformando a vida de pessoas através da tecnologia. Já ajudou mais de 500 pessoas 
+                  a conquistarem sua independência financeira no mercado de manutenção de celulares, com uma metodologia 
+                  exclusiva e resultados comprovados.
                 </p>
+
+                <div className="bg-green-50 border border-green-200 rounded-xl p-4 mb-6">
+                  <p className="text-green-800 font-semibold text-center">
+                    Quer aprender com quem realmente entende?
+                  </p>
+                </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {[
                     { icon: CheckCircle, text: "8+ anos de experiência" },
                     { icon: CheckCircle, text: "500+ alunos formados" },
-                    { icon: CheckCircle, text: "Especialista em todas as marcas" },
-                    { icon: CheckCircle, text: "Metodologia própria" },
+                    { icon: CheckCircle, text: "97% dos alunos conseguem emprego" },
+                    { icon: CheckCircle, text: "Metodologia exclusiva" },
                   ].map((item, index) => (
                     <div key={index} className="flex items-center space-x-3">
                       <div className="w-8 h-8 bg-gradient-to-br from-[#36b320] to-[#2a8f1a] rounded-full flex items-center justify-center">
@@ -480,7 +612,7 @@ export default function ZapCellLanding() {
                 <div className="relative bg-white p-2 rounded-3xl shadow-2xl">
                   <Image
                     src="/placeholder.svg?height=500&width=400"
-                    alt="Professor João Silva"
+                    alt="Professor Harison Moreira"
                     width={400}
                     height={500}
                     className="rounded-2xl w-full"
@@ -488,7 +620,7 @@ export default function ZapCellLanding() {
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 bg-yellow-400 text-black px-4 py-2 rounded-full font-bold text-sm shadow-lg">
-                ⭐ Top Instrutor
+                ⭐ 500+ Alunos Aprovados
               </div>
             </div>
           </div>
@@ -761,81 +893,6 @@ export default function ZapCellLanding() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Market Opportunity Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-900 to-black text-white relative overflow-hidden">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage:
-              "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fillRule='evenodd'%3E%3Cg fill='%23ffffff' fillOpacity='0.02'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
-          }}
-        />
-        
-        <div className="container mx-auto px-4 relative">
-          <div className="text-center mb-16">
-            <Badge className="bg-[#36b320] text-white border-0 mb-4">
-              Oportunidade de Mercado
-            </Badge>
-            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Por que AGORA é o
-              <span className="block bg-gradient-to-r from-[#36b320] to-green-400 bg-clip-text text-transparent">
-                melhor momento?
-              </span>
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-            {[
-              {
-                number: "240Mi",
-                label: "smartphones no Brasil",
-                subtitle: "E crescendo 15% ao ano",
-                icon: Smartphone
-              },
-              {
-                number: "87%",
-                label: "quebram a tela por ano",
-                subtitle: "= 200 milhões de reparos/ano",
-                icon: Shield
-              },
-              {
-                number: "R$ 350",
-                label: "preço médio do reparo",
-                subtitle: "Mercado de R$ 70 bilhões",
-                icon: Target
-              },
-              {
-                number: "73%",
-                label: "preferem consertar",
-                subtitle: "Ao invés de comprar novo",
-                icon: Award
-              }
-            ].map((stat, index) => (
-              <Card key={index} className="bg-white/10 backdrop-blur-lg border-white/20 text-center group hover:bg-white/20 transition-all duration-300">
-                <CardContent className="p-8">
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#36b320] to-green-400 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                    <stat.icon className="h-8 w-8 text-white" />
-                  </div>
-                  <div className="text-4xl font-bold text-white mb-2">{stat.number}</div>
-                  <div className="text-green-300 font-semibold mb-1">{stat.label}</div>
-                  <div className="text-gray-400 text-sm">{stat.subtitle}</div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-
-          <div className="bg-gradient-to-r from-red-600 to-red-500 p-8 rounded-3xl shadow-2xl text-center">
-            <h3 className="text-3xl font-bold mb-4">🔥 PROBLEMA: Falta de técnicos qualificados</h3>
-            <p className="text-xl mb-6">
-              Para cada 1.000 aparelhos quebrados, existem apenas 3 técnicos capacitados
-            </p>
-            <p className="text-2xl font-bold">
-              = OPORTUNIDADE ÚNICA para quem se capacitar AGORA!
-            </p>
           </div>
         </div>
       </section>
