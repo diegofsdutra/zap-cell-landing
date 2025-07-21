@@ -103,14 +103,13 @@ export default function ZapCellLanding() {
 
             <div className="relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl overflow-hidden shadow-2xl mb-8">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-transparent"></div>
-              <video
+              <iframe
+                src="https://player.vimeo.com/video/1103287863?autoplay=1&loop=0&muted=1"
                 className="w-full aspect-video relative z-10"
-                controls
-                poster="/placeholder.svg?height=400&width=800"
-              >
-                <source src="#" type="video/mp4" />
-                Seu navegador não suporta vídeo.
-              </video>
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                title="Como Trocar Tela de Celular em 5 Minutos"
+              ></iframe>
             </div>
             
 
@@ -563,24 +562,10 @@ GARANTIR MINHA VAGA (Últimas 3 vagas)
             ].map((testimonial, index) => (
               <Card key={index} className="border-0 shadow-xl hover:shadow-2xl transition-all duration-500 group bg-white">
                 <CardContent className="p-8">
-                  <div className="flex items-center space-x-4 mb-6">
-                    <div className="relative">
-                      <Image 
-                        src={testimonial.image}
-                        alt={testimonial.name}
-                        width={60}
-                        height={60}
-                        className="rounded-full"
-                      />
-                      {testimonial.verified && (
-                        <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-[#228B22] rounded-full flex items-center justify-center">
-                          <CheckCircle className="h-4 w-4 text-white" />
-                        </div>
-                      )}
-                    </div>
+                  <div className="mb-6">
                     <div>
-                      <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
-                      <div className="flex space-x-1 mt-1">
+                      <h4 className="font-bold text-gray-900 mb-2">{testimonial.name}</h4>
+                      <div className="flex space-x-1">
                         {[1,2,3,4,5].map((star) => (
                           <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                         ))}
@@ -604,13 +589,6 @@ GARANTIR MINHA VAGA (Últimas 3 vagas)
                   <blockquote className="text-gray-600 italic leading-relaxed">
                     "{testimonial.quote}"
                   </blockquote>
-                  
-                  {testimonial.verified && (
-                    <div className="flex items-center space-x-2 mt-4">
-                      <Shield className="h-4 w-4 text-[#228B22]" />
-                      <span className="text-xs text-[#228B22] font-medium">Depoimento Verificado</span>
-                    </div>
-                  )}
                 </CardContent>
               </Card>
             ))}
@@ -718,7 +696,7 @@ GARANTIR MINHA VAGA (Últimas 3 vagas)
                 <div className="absolute inset-0 bg-gradient-to-br from-[#36b320] to-[#2a8f1a] rounded-3xl transform rotate-6"></div>
                 <div className="relative bg-white p-2 rounded-3xl shadow-2xl">
                   <Image
-                    src="/placeholder.svg?height=500&width=400"
+                    src="/professor-harison.jpg"
                     alt="Professor Harison Moreira"
                     width={400}
                     height={500}
@@ -780,7 +758,7 @@ GARANTIR MINHA VAGA (Últimas 3 vagas)
               },
               {
                 question: "Quando começam as aulas de julho?",
-                answer: "Turma de Julho inicia dia 15/07/2025. São apenas 8 vagas para garantir atendimento personalizado. ÚLTIMAS 3 VAGAS disponíveis. Próxima turma apenas em dezembro/2025.",
+                answer: "Turma de Julho inicia dia 28/07/2025. São apenas 8 vagas para garantir atendimento personalizado. ÚLTIMAS 3 VAGAS disponíveis. Próxima turma apenas em dezembro/2025.",
                 icon: Clock
               }
             ].map((faq, index) => (
