@@ -24,7 +24,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 export default function ZapCellLanding() {
-  const whatsappNumber = "5531999999999"
+  const whatsappNumber = "5531993185450"
   const whatsappMessage = "Oi! Quero garantir minha vaga na turma de julho de manutenção de celular. Ainda tem vaga disponível?"
 
   return (
