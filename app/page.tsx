@@ -104,7 +104,7 @@ export default function ZapCellLanding() {
             <div className="relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl overflow-hidden shadow-2xl mb-8">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-transparent"></div>
               <iframe
-                src="https://player.vimeo.com/video/1103287863?autoplay=1&loop=0&muted=1"
+                src="https://player.vimeo.com/video/1103287863?autoplay=0&muted=0"
                 className="w-full aspect-video relative z-10"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
